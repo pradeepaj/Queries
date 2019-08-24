@@ -1,0 +1,8 @@
+//search between Dates
+
+SELECT *
+FROM `objects`
+WHERE (date_field BETWEEN '2010-01-30 14:15:55' AND '2010-09-29 10:15:55')
+
+
+https://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/reference/html/jpa.repositories.html
